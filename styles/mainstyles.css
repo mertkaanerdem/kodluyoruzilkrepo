@@ -1,0 +1,24 @@
+#menu{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+border-radius: 5px;
+margin: 0 30px 10px 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+    padding: 10px;
+    color: brown;
+    font-weight: bold;
+    transition: 0.5s;
+}
